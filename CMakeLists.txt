@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(bin_detect)
+find_package( OpenCV REQUIRED )
+find_package(MAVLink REQUIRED)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable(bin_detect src/mav.cpp)
+target_link_libraries( bin_detect PRIVATE ${OpenCV_LIBS} MAVLink::mavlink)
