@@ -7,7 +7,7 @@ int openSerial(std::string path, int baudrate){
     int fd = open("/dev/ttyS0", O_RDWR | O_NOCTTY | O_NDELAY);
 
     if (fd == -1){
-        std::cout  << "Failed to open serial port" <<std::endl;;
+        err(EXIT_FAILURE, "open");
         return -1;
     }
     if(tcgetattr(fd, &tty) < 0)
