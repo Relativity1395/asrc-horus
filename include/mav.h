@@ -7,5 +7,6 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <fcntl.h>
+#include <err.h>
 
 int openSerial(std::string path, int baudrate);
