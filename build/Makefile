@@ -153,6 +153,78 @@ src/blob.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/src/blob.cpp.s
 .PHONY : src/blob.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+third_party/c_uart_interface_example/autopilot_interface.o: third_party/c_uart_interface_example/autopilot_interface.cpp.o
+.PHONY : third_party/c_uart_interface_example/autopilot_interface.o
+
+# target to build an object file
+third_party/c_uart_interface_example/autopilot_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o
+.PHONY : third_party/c_uart_interface_example/autopilot_interface.cpp.o
+
+third_party/c_uart_interface_example/autopilot_interface.i: third_party/c_uart_interface_example/autopilot_interface.cpp.i
+.PHONY : third_party/c_uart_interface_example/autopilot_interface.i
+
+# target to preprocess a source file
+third_party/c_uart_interface_example/autopilot_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.i
+.PHONY : third_party/c_uart_interface_example/autopilot_interface.cpp.i
+
+third_party/c_uart_interface_example/autopilot_interface.s: third_party/c_uart_interface_example/autopilot_interface.cpp.s
+.PHONY : third_party/c_uart_interface_example/autopilot_interface.s
+
+# target to generate assembly for a file
+third_party/c_uart_interface_example/autopilot_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.s
+.PHONY : third_party/c_uart_interface_example/autopilot_interface.cpp.s
+
+third_party/c_uart_interface_example/serial_port.o: third_party/c_uart_interface_example/serial_port.cpp.o
+.PHONY : third_party/c_uart_interface_example/serial_port.o
+
+# target to build an object file
+third_party/c_uart_interface_example/serial_port.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o
+.PHONY : third_party/c_uart_interface_example/serial_port.cpp.o
+
+third_party/c_uart_interface_example/serial_port.i: third_party/c_uart_interface_example/serial_port.cpp.i
+.PHONY : third_party/c_uart_interface_example/serial_port.i
+
+# target to preprocess a source file
+third_party/c_uart_interface_example/serial_port.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.i
+.PHONY : third_party/c_uart_interface_example/serial_port.cpp.i
+
+third_party/c_uart_interface_example/serial_port.s: third_party/c_uart_interface_example/serial_port.cpp.s
+.PHONY : third_party/c_uart_interface_example/serial_port.s
+
+# target to generate assembly for a file
+third_party/c_uart_interface_example/serial_port.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bin_detect.dir/build.make CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.s
+.PHONY : third_party/c_uart_interface_example/serial_port.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +237,15 @@ help:
 	@echo "... src/blob.o"
 	@echo "... src/blob.i"
 	@echo "... src/blob.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... third_party/c_uart_interface_example/autopilot_interface.o"
+	@echo "... third_party/c_uart_interface_example/autopilot_interface.i"
+	@echo "... third_party/c_uart_interface_example/autopilot_interface.s"
+	@echo "... third_party/c_uart_interface_example/serial_port.o"
+	@echo "... third_party/c_uart_interface_example/serial_port.i"
+	@echo "... third_party/c_uart_interface_example/serial_port.s"
 .PHONY : help
 
 

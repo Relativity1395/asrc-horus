@@ -4,8 +4,18 @@
 
 
 int main(void){
-    Serial_Port port("/dev/ttyS0", 921600);
-    Autopilot_Interface horus(&port);
+    // Serial_Port port("/dev/ttyS0", 921600);
+    // Autopilot_Interface horus(&port);
+    // horus.read_messages();
 
-    horus.read_messages();
+    cv::VideoCapture capture(0);
+    if (!capture.isOpened()){
+        //error in opening the video input
+        std::cerr << "Unable to open file!" << std::endl;
+        return 0;
+    }
+
+    OpticalFlow flow(capture);
+
+
 }

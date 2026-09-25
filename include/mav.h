@@ -1,5 +1,4 @@
 #include <mavlink/common/mavlink.h>
-#include <opencv2/opencv.hpp>
 #include <iostream>
 #include <unistd.h>
 #include <termios.h>
@@ -8,5 +7,6 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <err.h>
+#include <c_uart_interface_example/autopilot_interface.h>
+#include <c_uart_interface_example/serial_port.h>
 
-int openSerial(std::string path, int baudrate);

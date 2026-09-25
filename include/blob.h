@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#include <mavlink/common/mavlink.h>
 
 
 #ifndef BLOB_H
@@ -21,12 +20,20 @@ typedef struct {
 
 class OpticalFlow {
     public:
-        void initVideo();
-        void opticalFlow();
+        OpticalFlow(cv::VideoCapture cap);
+        void initFeatures(cv::Mat& old_frame, cv::Mat& old_gray, cv::Mat& mask);
+        int calcFlow(cv::Mat& old_gray, cv::Mat& mask);
+        int calcDivCurl();
+        // void calcCurl();
     private:
-        cv::VideoCapture cap_;
-        cv::Mat vel_;
-        
+        cv::VideoCapture cap;
+        std::vector<cv::Point2f> p0, p1;
+        cv::Mat vel;
+        std::vector<cv::Point2f> dp;
+        double meanDiv;
+        double meanCurl;
+
+
 };
 
 

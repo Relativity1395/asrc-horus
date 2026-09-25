@@ -149,6 +149,9 @@ CMakeFiles/bin_detect.dir/src/blob.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
+ /home/thomas/asrc-horus/src/../include/blob.h \
+ /usr/include/opencv4/opencv2/opencv.hpp \
+ /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
  /usr/include/opencv4/opencv2/core/version.hpp /usr/include/c++/13/limits \
@@ -163,7 +166,6 @@ CMakeFiles/bin_detect.dir/src/blob.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
  /usr/include/c++/13/stdlib.h /usr/include/c++/13/array \
  /usr/include/c++/13/compare /usr/include/opencv4/opencv2/core/base.hpp \
- /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -254,264 +256,6 @@ CMakeFiles/bin_detect.dir/src/blob.cpp.o: \
  /usr/include/opencv4/opencv2/core/optim.hpp \
  /usr/include/opencv4/opencv2/core/ovx.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
- /usr/include/opencv4/opencv2/highgui.hpp \
- /usr/include/opencv4/opencv2/imgcodecs.hpp \
- /usr/include/opencv4/opencv2/videoio.hpp \
- /usr/include/opencv4/opencv2/imgproc.hpp \
- /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
- /usr/include/opencv4/opencv2/video.hpp \
- /usr/include/opencv4/opencv2/video/tracking.hpp \
- /usr/include/opencv4/opencv2/video/background_segm.hpp \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink.h \
- /home/thomas/mavlink/install/include/mavlink/common/version.h \
- /home/thomas/mavlink/install/include/mavlink/common/common.h \
- /home/thomas/mavlink/install/include/mavlink/protocol.h \
- /home/thomas/mavlink/install/include/mavlink/mavlink_types.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/thomas/mavlink/install/include/mavlink/mavlink_helpers.h \
- /home/thomas/mavlink/install/include/mavlink/checksum.h \
- /home/thomas/mavlink/install/include/mavlink/mavlink_conversions.h \
- /usr/include/c++/13/math.h \
- /home/thomas/mavlink/install/include/mavlink/mavlink_sha256.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_sys_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_system_time.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_ping.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_change_operator_control.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_change_operator_control_ack.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_auth_key.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_link_node_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_set_mode.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_request_read.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_request_list.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_value.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_set.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps_raw_int.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_scaled_imu.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_raw_imu.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_raw_pressure.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_scaled_pressure.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_attitude.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_attitude_quaternion.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_local_position_ned.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_rc_channels_scaled.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_rc_channels_raw.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_servo_output_raw.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_request_partial_list.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_write_partial_list.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_item.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_request.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_set_current.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_current.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_request_list.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_count.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_clear_all.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_item_reached.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_ack.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_set_gps_global_origin.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps_global_origin.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_map_rc.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_request_int.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_safety_set_allowed_area.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_safety_allowed_area.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_attitude_quaternion_cov.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_nav_controller_output.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_global_position_int_cov.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_local_position_ned_cov.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_rc_channels.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_request_data_stream.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_data_stream.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_manual_control.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_rc_channels_override.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mission_item_int.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_vfr_hud.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_command_int.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_command_long.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_command_ack.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_command_cancel.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_manual_setpoint.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_set_attitude_target.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_attitude_target.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_set_position_target_local_ned.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_position_target_local_ned.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_set_position_target_global_int.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_position_target_global_int.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_local_position_ned_system_global_offset.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hil_state.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hil_controls.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hil_rc_inputs_raw.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hil_actuator_controls.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_optical_flow.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_global_vision_position_estimate.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_vision_position_estimate.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_vision_speed_estimate.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_vicon_position_estimate.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_highres_imu.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_optical_flow_rad.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hil_sensor.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_sim_state.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_radio_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_file_transfer_protocol.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_timesync.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_trigger.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hil_gps.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hil_optical_flow.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hil_state_quaternion.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_scaled_imu2.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_log_request_list.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_log_entry.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_log_request_data.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_log_data.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_log_erase.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_log_request_end.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps_inject_data.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps2_raw.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_power_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_serial_control.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps_rtk.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps2_rtk.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_scaled_imu3.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_data_transmission_handshake.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_encapsulated_data.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_distance_sensor.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_terrain_request.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_terrain_data.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_terrain_check.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_terrain_report.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_scaled_pressure2.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_att_pos_mocap.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_set_actuator_control_target.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_actuator_control_target.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_altitude.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_resource_request.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_scaled_pressure3.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_follow_target.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_control_system_state.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_battery_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_landing_target.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_fence_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mag_cal_report.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_efi_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_estimator_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_wind_cov.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps_input.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gps_rtcm_data.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_high_latency.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_high_latency2.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_vibration.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_home_position.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_set_home_position.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_message_interval.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_extended_sys_state.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_adsb_vehicle.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_collision.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_v2_extension.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_memory_vect.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_debug_vect.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_named_value_float.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_named_value_int.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_statustext.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_debug.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_setup_signing.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_button_change.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_play_tune.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_information.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_settings.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_storage_information.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_capture_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_image_captured.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_flight_information.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_mount_orientation.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_logging_data.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_logging_data_acked.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_logging_ack.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_video_stream_information.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_video_stream_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_fov_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_tracking_image_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_tracking_geo_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_camera_thermal_range.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gimbal_manager_information.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gimbal_manager_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gimbal_manager_set_attitude.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gimbal_device_information.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gimbal_device_set_attitude.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gimbal_device_attitude_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_autopilot_state_for_gimbal_device.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gimbal_manager_set_pitchyaw.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_gimbal_manager_set_manual_control.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_esc_info.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_esc_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_airspeed.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_global_position_sensor.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_wifi_config_ap.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_protocol_version.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_ais_vessel.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_uavcan_node_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_uavcan_node_info.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_ext_request_read.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_ext_request_list.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_ext_value.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_ext_set.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_ext_ack.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_obstacle_distance.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_odometry.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_trajectory_representation_waypoints.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_trajectory_representation_bezier.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_cellular_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_isbd_link_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_cellular_config.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_raw_rpm.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_utm_global_position.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_param_error.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_debug_float_array.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_orbit_execution_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_smart_battery_info.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_figure_eight_execution_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_fuel_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_battery_info.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_generator_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_actuator_output_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_relay_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_time_estimate_to_target.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_tunnel.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_can_frame.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_canfd_frame.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_can_filter_modify.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_onboard_computer_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_component_information.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_component_information_basic.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_component_metadata.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_play_tune_v2.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_supported_tunes.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_event.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_current_event_sequence.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_request_event.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_response_event_error.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_available_modes.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_current_mode.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_available_modes_monitor.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_illuminator_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_wheel_distance.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_winch_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_basic_id.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_location.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_authentication.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_self_id.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_system.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_operator_id.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_message_pack.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_arm_status.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_open_drone_id_system_update.h \
- /home/thomas/mavlink/install/include/mavlink/common/mavlink_msg_hygrometer_sensor.h \
- /home/thomas/mavlink/install/include/mavlink/standard/standard.h \
- /home/thomas/mavlink/install/include/mavlink/standard/mavlink_msg_global_position_int.h \
- /home/thomas/mavlink/install/include/mavlink/standard/mavlink_msg_autopilot_version.h \
- /home/thomas/mavlink/install/include/mavlink/minimal/minimal.h \
- /home/thomas/mavlink/install/include/mavlink/minimal/mavlink_msg_heartbeat.h \
- /home/thomas/mavlink/install/include/mavlink/mavlink_get_info.h \
- /home/thomas/asrc-horus/src/../include/blob.h \
- /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/calib3d.hpp \
  /usr/include/opencv4/opencv2/features2d.hpp \
  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
@@ -563,12 +307,17 @@ CMakeFiles/bin_detect.dir/src/blob.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
- /usr/include/c++/13/bits/quoted_string.h \
+ /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/math.h \
  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
  /usr/include/opencv4/opencv2/flann/ground_truth.h \
  /usr/include/opencv4/opencv2/flann/index_testing.h \
  /usr/include/opencv4/opencv2/flann/timer.h \
  /usr/include/opencv4/opencv2/flann/sampling.h \
+ /usr/include/opencv4/opencv2/highgui.hpp \
+ /usr/include/opencv4/opencv2/imgcodecs.hpp \
+ /usr/include/opencv4/opencv2/videoio.hpp \
+ /usr/include/opencv4/opencv2/imgproc.hpp \
+ /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
  /usr/include/opencv4/opencv2/ml.hpp \
  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
  /usr/include/opencv4/opencv2/objdetect.hpp \
@@ -597,4 +346,7 @@ CMakeFiles/bin_detect.dir/src/blob.cpp.o: \
  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
- /usr/include/opencv4/opencv2/stitching/detail/camera.hpp
+ /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+ /usr/include/opencv4/opencv2/video.hpp \
+ /usr/include/opencv4/opencv2/video/tracking.hpp \
+ /usr/include/opencv4/opencv2/video/background_segm.hpp

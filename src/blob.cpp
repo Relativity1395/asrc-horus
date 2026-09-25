@@ -149,4 +149,3 @@ int OpticalFlow::calcDivCurl(){
     // while(true){
         
     // }
-}

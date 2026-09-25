@@ -83,14 +83,62 @@ CMakeFiles/bin_detect.dir/src/blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin_detect.dir/src/blob.cpp.s"
 	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/asrc-horus/src/blob.cpp -o CMakeFiles/bin_detect.dir/src/blob.cpp.s
 
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o: CMakeFiles/bin_detect.dir/flags.make
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o: ../third_party/c_uart_interface_example/serial_port.cpp
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o: CMakeFiles/bin_detect.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/asrc-horus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o -MF CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o.d -o CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o -c /home/thomas/asrc-horus/third_party/c_uart_interface_example/serial_port.cpp
+
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/asrc-horus/third_party/c_uart_interface_example/serial_port.cpp > CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.i
+
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/asrc-horus/third_party/c_uart_interface_example/serial_port.cpp -o CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.s
+
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o: CMakeFiles/bin_detect.dir/flags.make
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o: ../third_party/c_uart_interface_example/autopilot_interface.cpp
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o: CMakeFiles/bin_detect.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/asrc-horus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o -MF CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o.d -o CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o -c /home/thomas/asrc-horus/third_party/c_uart_interface_example/autopilot_interface.cpp
+
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/asrc-horus/third_party/c_uart_interface_example/autopilot_interface.cpp > CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.i
+
+CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/asrc-horus/third_party/c_uart_interface_example/autopilot_interface.cpp -o CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.s
+
+CMakeFiles/bin_detect.dir/src/main.cpp.o: CMakeFiles/bin_detect.dir/flags.make
+CMakeFiles/bin_detect.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/bin_detect.dir/src/main.cpp.o: CMakeFiles/bin_detect.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/asrc-horus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bin_detect.dir/src/main.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bin_detect.dir/src/main.cpp.o -MF CMakeFiles/bin_detect.dir/src/main.cpp.o.d -o CMakeFiles/bin_detect.dir/src/main.cpp.o -c /home/thomas/asrc-horus/src/main.cpp
+
+CMakeFiles/bin_detect.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin_detect.dir/src/main.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/asrc-horus/src/main.cpp > CMakeFiles/bin_detect.dir/src/main.cpp.i
+
+CMakeFiles/bin_detect.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin_detect.dir/src/main.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/asrc-horus/src/main.cpp -o CMakeFiles/bin_detect.dir/src/main.cpp.s
+
 # Object files for target bin_detect
 bin_detect_OBJECTS = \
-"CMakeFiles/bin_detect.dir/src/blob.cpp.o"
+"CMakeFiles/bin_detect.dir/src/blob.cpp.o" \
+"CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o" \
+"CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o" \
+"CMakeFiles/bin_detect.dir/src/main.cpp.o"
 
 # External object files for target bin_detect
 bin_detect_EXTERNAL_OBJECTS =
 
 bin_detect: CMakeFiles/bin_detect.dir/src/blob.cpp.o
+bin_detect: CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/serial_port.cpp.o
+bin_detect: CMakeFiles/bin_detect.dir/third_party/c_uart_interface_example/autopilot_interface.cpp.o
+bin_detect: CMakeFiles/bin_detect.dir/src/main.cpp.o
 bin_detect: CMakeFiles/bin_detect.dir/build.make
 bin_detect: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 bin_detect: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
@@ -147,7 +195,7 @@ bin_detect: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
 bin_detect: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 bin_detect: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 bin_detect: CMakeFiles/bin_detect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/asrc-horus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin_detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/asrc-horus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin_detect"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bin_detect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
