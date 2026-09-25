@@ -17,5 +17,13 @@ int main(void){
 
     OpticalFlow flow(capture);
 
+    cv::Mat oldFrame, oldGray, mask;
+
+    flow.initFeatures(oldFrame, oldGray, mask);
+    std::cout << "Features collected" <<std::endl;
+
+    while(true){
+        flow.calcFlow(oldGray, mask);
+    }
 
 }
