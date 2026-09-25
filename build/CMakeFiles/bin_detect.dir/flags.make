@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib/ccache/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/include/opencv4 -isystem /home/drone-laptop/mavlink/install/include
+CXX_INCLUDES = -isystem /usr/include/opencv4 -isystem /home/thomas/mavlink/install/include
 
 CXX_FLAGS = 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/drone-laptop/mav_ws
+# Install script for directory: /home/thomas/asrc-horus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/drone-laptop/mav_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thomas/asrc-horus/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

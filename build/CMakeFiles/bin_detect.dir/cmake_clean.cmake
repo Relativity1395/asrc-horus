@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bin_detect.dir/src/mav.cpp.o"
-  "CMakeFiles/bin_detect.dir/src/mav.cpp.o.d"
+  "CMakeFiles/bin_detect.dir/src/blob.cpp.o"
+  "CMakeFiles/bin_detect.dir/src/blob.cpp.o.d"
   "bin_detect"
   "bin_detect.pdb"
 )
